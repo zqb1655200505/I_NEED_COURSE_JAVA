@@ -1,5 +1,7 @@
 ##北理工抢课专用程序
 
+#首先声明，这个脚本软件是我根据 'friskit-china'博主的I_NEED_COURSE（https://github.com/friskit-china/I_NEED_COURSE ）而写的java版本。由于原项目是使用python开发的，而且存在一个很大的局限，一个进程只能选择某一门具体的课。因此我采用java改写，优化了可同时监听多门课程。使用方法与原来python版本一样。下面的具体过程我是将原项目的readme直接粘贴过来的。与python不同的是，若是想同时监听多门课程，只需要增加配置文件的内容为多门课程对应的数据即可，但是需要将没门课程的数据以换行进行分割（即课程之间有一个空白行）
+
 #免责声明
 
 1. 抢课是一种很不好的行为，因为你能抢到课，就说明有人退课。退课很有可能是为了在主观上把课让给同学、男/女朋友。
@@ -11,7 +13,6 @@
 7. 随手写的小程序，连代码加文档加下载环境也没花几分钟，所以有BUG别骂我，不保证对每个人都好使。
 8. 写文档水平太差，请发动你们的洪荒之力好好理解，理解不了也别问我了。。
 9. 抢上课了就好好学习吧，以后自己写脚本。
-10. 人生苦短，我用Python
 
 ##程序功能
 
@@ -19,23 +20,22 @@
 
 ##程序环境
 
-Python2.7
+java
 
-##依赖库 （应该都是自带的标准库，装了python就都有了）
-
-1. urllib
-2. re
-3. time
-4. sys
-5. json 
+##依赖库 (版本可以不一样)
+commons-beanutils-1.9.1.jar
+commons-collections-3.2.1.jar
+commons-lang-2.6.jar
+commons-logging-1.2.jar
+ezmorph-1.0.6.jar
+httpclient-4.5.6.jar
+httpcore-4.4.10.jar
+httpmime-4.5.6.jar
+json-lib-2.4-jdk15.jar
+ 
 
 ##用法
-
-python i_need_course.py 超时时间（秒） 配置文件名
-
-例如
-
-python i_need_course.py 1 0700015.configure.txt
+fork项目到自己仓库并clone到本地或者下载项目源代码的zip包，用idea打开直接运行就OK了。
 
 ## 关于配置文件
 
