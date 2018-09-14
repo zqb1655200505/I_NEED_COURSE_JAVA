@@ -23,14 +23,14 @@
 java
 
 ## 依赖库 (版本可以不一样)
-1、commons-beanutils-1.9.1.jar
-2、commons-collections-3.2.1.jar
-3、commons-lang-2.6.jar
-4、commons-logging-1.2.jar
-5、ezmorph-1.0.6.jar
-6、httpclient-4.5.6.jar
-7、httpcore-4.4.10.jar
-8、httpmime-4.5.6.jar
+1、commons-beanutils-1.9.1.jar  
+2、commons-collections-3.2.1.jar  
+3、commons-lang-2.6.jar  
+4、commons-logging-1.2.jar  
+5、ezmorph-1.0.6.jar  
+6、httpclient-4.5.6.jar  
+7、httpcore-4.4.10.jar  
+8、httpmime-4.5.6.jar  
 9、json-lib-2.4-jdk15.jar
  
 
