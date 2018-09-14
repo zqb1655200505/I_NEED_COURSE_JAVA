@@ -23,15 +23,15 @@
 java
 
 ## 依赖库 (版本可以不一样)
-commons-beanutils-1.9.1.jar
-commons-collections-3.2.1.jar
-commons-lang-2.6.jar
-commons-logging-1.2.jar
-ezmorph-1.0.6.jar
-httpclient-4.5.6.jar
-httpcore-4.4.10.jar
-httpmime-4.5.6.jar
-json-lib-2.4-jdk15.jar
+1、commons-beanutils-1.9.1.jar
+2、commons-collections-3.2.1.jar
+3、commons-lang-2.6.jar
+4、commons-logging-1.2.jar
+5、ezmorph-1.0.6.jar
+6、httpclient-4.5.6.jar
+7、httpcore-4.4.10.jar
+8、httpmime-4.5.6.jar
+9、json-lib-2.4-jdk15.jar
  
 
 ## 用法
@@ -56,10 +56,3 @@ fork项目到自己仓库并clone到本地或者下载项目源代码的zip包�
 程序还需要保存Cookie才能模拟你本人登录，得到Cookie的方法跟上面前6布一样，只不过这时候复制的内容不是空行以后的内容，而是以“Cookie: ”为开头的一行文本。（见图cookie.png）
 
 这个文件必须命名为cookies.txt，保存到本程序目录下。
-
-## 备注
-
-1. Cookie文件一个人只需要一个，必须保存为cookies.txt。
-2. 每一门课都需要一个配置文件，请不断重复上面的步骤。
-3. 如果你想同时选多门课，那就同时抓取到多个配置文件，然后同时用多个控制台打开就好。（真·多进程）
-4. 如果不会用，请参考代码推测用法……不负责一对一教学。
